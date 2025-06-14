@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/template.html}">
+<head>
+    <title>Pexeso</title>
+    <style>
+        .neon-shadow {
+            box-shadow: 0 0 20px #00ffc3, 0 0 40px #00ffc3, 0 0 60px #00ffc3;
+            border-radius: 1rem;
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        body {
+            background-color: #000000 !important;
+            color: white;
+        }
+
+        @keyframes rgbGlow {
+            0% { box-shadow: 0 0 20px #ff0040, 0 0 40px #ff0040, 0 0 60px #ff0040; }
+            25% { box-shadow: 0 0 20px #ff8000, 0 0 40px #ff8000, 0 0 60px #ff8000; }
+            50% { box-shadow: 0 0 20px #00ffbf, 0 0 40px #00ffbf, 0 0 60px #00ffbf; }
+            75% { box-shadow: 0 0 20px #0080ff, 0 0 40px #0080ff, 0 0 60px #0080ff; }
+            100% { box-shadow: 0 0 20px #ff0040, 0 0 40px #ff0040, 0 0 60px #ff0040; }
+        }
+
+        .neon-shadow {
+            border-radius: 1rem;
+            background-color: #1c1c1c;
+            color: white;
+            animation: rgbGlow 4s infinite;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+
+<main layout:fragment="content" class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card bg-dark text-white p-4 neon-shadow" style="width: fit-content; text-align: center;">
+        <h1 class="text-center mb-4 text-white">Pexeso</h1>
+        <div th:replace="fragments/fragments :: field"></div>
+    </div>
+</main>
+
+</body>
+</html>
