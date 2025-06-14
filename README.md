@@ -7,6 +7,8 @@ A multiplayer web game with user ratings, comments, scoreboards, and PostgreSQL 
 - PostgreSQL
 - Web GUI (HTML/JavaScript/CSS)
 - RESTful services
+- Spring
+- Thymeleaf
 
 ## ✨ Features
 - User login/registration
