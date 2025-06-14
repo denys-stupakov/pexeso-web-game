@@ -18,7 +18,7 @@ A multiplayer web game with user ratings, comments, scoreboards, and PostgreSQL 
 - Video demonstration
 
 
-<div style="display: flex; alighn-items: top;">
+<div style="display: flex; alighn-items: start;">
   <img src="game-preview/1.png" alt="Preview" width="400"/>
   <img src="game-preview/2.png" alt="Preview" width="400"/>
   <img src="game-preview/3.png" alt="Preview" width="400"/>
