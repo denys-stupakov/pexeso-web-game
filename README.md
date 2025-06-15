@@ -19,13 +19,13 @@ A multiplayer web game with user ratings, comments, scoreboards, and PostgreSQL 
 
 
 <div style="display: flex; alighn-items: flex-start;">
-  <img style="object-fit: cover;" src="game-preview/1.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/2.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/3.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/4.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/5.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/6.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/7.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/8.png" alt="Preview" width="400"/>
-  <img style="object-fit: cover;" src="game-preview/9.png" alt="Preview" width="400"/>
+  <img src="game-preview/1.png" alt="Preview" width="400"/>
+  <img src="game-preview/2.png" alt="Preview" width="400"/>
+  <img src="game-preview/3.png" alt="Preview" width="400"/>
+  <img src="game-preview/4.png" alt="Preview" width="400"/>
+  <img src="game-preview/5.png" alt="Preview" width="400"/>
+  <img src="game-preview/6.png" alt="Preview" width="400"/>
+  <img src="game-preview/7.png" alt="Preview" width="400"/>
+  <img src="game-preview/8.png" alt="Preview" width="400"/>
+  <img src="game-preview/9.png" alt="Preview" width="400"/>
 </div>
